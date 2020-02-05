@@ -17,7 +17,6 @@ images = ['jpg','gif','png']
 for file in list: 
     name, ext = os.path.splitext(file) 
     ext = ext[1:]
-    print(ext,'\n')
     if ext == '': 
         continue
     
